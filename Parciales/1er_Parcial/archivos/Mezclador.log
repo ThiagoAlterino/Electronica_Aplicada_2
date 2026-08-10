@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Electronica_Aplicada_2\Parciales\1er_Parcial\archivos\Mezclador.net
-Start Time: Sun Aug  9 22:17:44 2026
+Start Time: Mon Aug 10 09:51:12 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -13,7 +13,7 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.425 seconds.
+Total elapsed time: 1.428 seconds.
 
 Files loaded:
 C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Electronica_Aplicada_2\Parciales\1er_Parcial\archivos\Mezclador.net
