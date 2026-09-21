@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Electronica_Aplicada_2\Laboratorio_2\LT-Spice\Seccion_2-3\Diseño.net
-Start Time: Mon Sep 21 00:42:37 2026
+Start Time: Mon Sep 21 10:53:19 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -10,10 +10,15 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.189 seconds.
+Total elapsed time: 0.182 seconds.
 
 Files loaded:
 C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Electronica_Aplicada_2\Laboratorio_2\LT-Spice\Seccion_2-3\Diseño.net
 C:\users\thiago\AppData\Local\LTspice\lib\sub\ADI.lib
 
-t_delay_ad823=3.04350026572e-07 FROM 5.0015e-05 TO 5.03193500266e-05
+tr1: v(vout_AD823)=0.5  AT 5.01814065156e-05
+tr2: v(vout_AD823)=4.5  AT 5.0339821938e-05
+sr_rise: (4.5 - 0.5) / (tr2 - tr1)=25250066.812
+tf2: v(vout_AD823)=0.5  AT 0.000100328208672
+tf1: v(vout_AD823)=4.5  AT 0.000100170629126
+sr_fall: (0.5 - 4.5) / (tf2 - tf1)=-25384005.0851
