@@ -1,0 +1,18 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Laboratorio\Labo2\Seccion_1\Draft1.net
+Start Time: Sun Sep 20 23:03:02 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.203 seconds.
+
+Files loaded:
+C:\users\thiago\Documents\UTN\2026\Electronica_Aplicada_2\Laboratorio\Labo2\Seccion_1\Draft1.net
+C:\users\thiago\AppData\Local\LTspice\lib\sub\ADI.lib
+

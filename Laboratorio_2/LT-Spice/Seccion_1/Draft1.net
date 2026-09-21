@@ -1,0 +1,12 @@
+*
+R1 +5V N003 25k
+R2 N003 0 20k
+V1 +5V 0 5
+R3 N002 N003 100k
+V2 N001 0 PULSE(0 5 0 10n 10n 50u 100u)
+X§U1 N003 N001 +5V 0 N002 AD823 ;§pnba In+)In-)V+)V-)OUT
+.tran 150u
+* Library below included based on ModelFile attribute of instance X§U1 (C:\users\thiago\AppData\Local\LTspice\lib\sym\OpAmps\AD823.asy)
+.lib ADI.lib
+.backanno
+.end
