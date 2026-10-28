@@ -1107,6 +1107,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BD139"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BD139"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=C 3=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Low Voltage Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BD139_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BD139_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BD140"
 			(pin_names
 				(offset 0)
@@ -2403,10 +2646,22 @@
 		)
 	)
 	(junction
+		(at 119.38 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b15678-45e2-4984-b460-9d9ea0d9ed41")
+	)
+	(junction
 		(at 176.53 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e069f9d-a358-459e-ad51-62dd5917aabc")
+	)
+	(junction
+		(at 234.95 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1edbdae0-f7a0-4560-8dd5-4562908481a3")
 	)
 	(junction
 		(at 95.25 50.8)
@@ -2475,6 +2730,12 @@
 		(uuid "9e3bbe21-3c5f-4e59-80f3-2f6554e947c8")
 	)
 	(junction
+		(at 234.95 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab3ac4f8-8063-4f94-8150-a5da09631126")
+	)
+	(junction
 		(at 69.85 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2498,12 +2759,6 @@
 		(color 0 0 0 0)
 		(uuid "f693aef6-b368-4f70-963f-72a4f9f3feb0")
 	)
-	(junction
-		(at 119.38 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe0961b0-f4f4-418c-b1cf-5543b8c734b7")
-	)
 	(wire
 		(pts
 			(xy 158.75 85.09) (xy 158.75 81.28)
@@ -2513,6 +2768,16 @@
 			(type default)
 		)
 		(uuid "00cb350c-e86a-417d-9a21-7d40588845ad")
+	)
+	(wire
+		(pts
+			(xy 208.28 62.23) (xy 214.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018d2a97-7e8b-48e7-94f1-88d850dd2657")
 	)
 	(wire
 		(pts
@@ -2596,13 +2861,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 119.38 92.71)
+			(xy 208.28 52.07) (xy 214.63 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29ab8529-734d-4906-b202-4a46a5b4a370")
+		(uuid "2a950377-b6d2-4542-aff1-ec7019bf3960")
 	)
 	(wire
 		(pts
@@ -2613,6 +2878,16 @@
 			(type default)
 		)
 		(uuid "2e8c2990-4cbe-46bd-bc86-d85db2ab267e")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 124.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b302e1-3b17-4d02-aa30-209876e215d7")
 	)
 	(wire
 		(pts
@@ -2716,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 107.95) (xy 234.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40633e55-3d57-4b66-8978-3661afcf6791")
+	)
+	(wire
+		(pts
 			(xy 95.25 87.63) (xy 95.25 110.49)
 		)
 		(stroke
@@ -2806,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 80.01) (xy 33.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa3be99-6c50-4d20-b4f5-b4087ec597be")
+	)
+	(wire
+		(pts
 			(xy 176.53 111.76) (xy 182.88 111.76)
 		)
 		(stroke
@@ -2813,16 +3108,6 @@
 			(type default)
 		)
 		(uuid "5ba8fac6-eca5-4f87-acb4-d65c476901c1")
-	)
-	(wire
-		(pts
-			(xy 34.29 77.47) (xy 39.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb0be6e-b129-476d-9e78-29a79fc187aa")
 	)
 	(wire
 		(pts
@@ -2906,6 +3191,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 90.17) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834fc358-f2ae-4630-a71f-a7d49b28bd81")
+	)
+	(wire
+		(pts
 			(xy 156.21 76.2) (xy 160.02 76.2)
 		)
 		(stroke
@@ -2926,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 91.44) (xy 119.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919409eb-ef88-4d6d-9180-64d929538705")
+	)
+	(wire
+		(pts
 			(xy 217.17 80.01) (xy 217.17 85.09)
 		)
 		(stroke
@@ -2933,6 +3238,16 @@
 			(type default)
 		)
 		(uuid "9285e6a7-9da1-46a1-8bcc-a7386d7a2742")
+	)
+	(wire
+		(pts
+			(xy 134.62 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93feacf1-d5ff-41ba-917c-09c31bf31c63")
 	)
 	(wire
 		(pts
@@ -3016,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 59.69) (xy 214.63 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a04c36-53b4-489b-beaa-09a6537ce604")
+	)
+	(wire
+		(pts
 			(xy 53.34 101.6) (xy 53.34 104.14)
 		)
 		(stroke
@@ -3073,6 +3398,16 @@
 			(type default)
 		)
 		(uuid "be78c208-e851-44b4-b6e7-1b564ac11356")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c075e715-7e55-4666-b870-3efabf1f64ba")
 	)
 	(wire
 		(pts
@@ -3166,13 +3501,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 119.38 93.98)
+			(xy 30.48 77.47) (xy 39.37 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddb7dfa3-ecb1-4792-83c6-3ea3e1735b17")
+		(uuid "def34f34-c3ab-4f30-877b-3dbdbc149d79")
 	)
 	(wire
 		(pts
@@ -3276,6 +3611,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 55.88) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57f8b87-d2c4-45f6-bbda-acf0e15d4f00")
+	)
+	(wire
+		(pts
 			(xy 83.82 55.88) (xy 83.82 50.8)
 		)
 		(stroke
@@ -3314,18 +3659,18 @@
 		)
 		(uuid "fd872e8b-7e69-48cb-b5cb-a2862e47eb2d")
 	)
-	(label "-Vo2"
-		(at 203.2 116.84 0)
+	(label "Entrada_Neg_Etapa_3"
+		(at 203.2 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0f0d9b17-e99e-4bb7-b666-c4f287065e72")
 	)
 	(label "Vo"
-		(at 34.29 77.47 0)
+		(at 33.02 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3334,13 +3679,13 @@
 		)
 		(uuid "1c8ebab3-a480-4b0e-b386-d0e11bc4537d")
 	)
-	(label "+Vo2"
-		(at 203.2 74.93 0)
+	(label "Entrada_Pos_Etapa_3"
+		(at 203.2 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "350c440f-9924-441f-bcc1-e425e09f2c90")
 	)
@@ -3353,6 +3698,16 @@
 			(justify left bottom)
 		)
 		(uuid "37e6c4c3-b8dd-4d47-b54e-c25e8e199b14")
+	)
+	(label "Entrada_Pos_Etapa_3"
+		(at 214.63 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39edcaf0-62f9-483e-acb4-b7513ae93c76")
 	)
 	(label "Vee"
 		(at 95.25 135.89 0)
@@ -3384,6 +3739,26 @@
 		)
 		(uuid "4b225af5-9575-47c3-bd8c-8d3b2adbddf2")
 	)
+	(label "Entrada_Neg_Etapa_3"
+		(at 214.63 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c76582-75dd-466a-9f64-9069a3f33b7d")
+	)
+	(label "Salida_Etapa_1"
+		(at 139.7 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6310c59c-1d9f-4c3d-85eb-078d706f0daa")
+	)
 	(label "Vin"
 		(at 135.89 77.47 180)
 		(effects
@@ -3404,7 +3779,17 @@
 		)
 		(uuid "6be041e5-84cf-4da1-b58a-46173a02f9c2")
 	)
-	(label "Vo1"
+	(label "Entrada_Etapa_2"
+		(at 139.7 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7335aacb-7d85-4e00-8a69-d9f64a1f42b3")
+	)
+	(label "Entrada_Etapa_2"
 		(at 151.13 67.31 0)
 		(effects
 			(font
@@ -3424,6 +3809,16 @@
 		)
 		(uuid "7c0c5a49-518b-4633-8899-ba03c61564c5")
 	)
+	(label "Salida_Pos_Etapa_2"
+		(at 214.63 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e25570b-b1d6-4a4e-a88a-3a06f1164a9c")
+	)
 	(label "Vee"
 		(at 60.96 135.89 0)
 		(effects
@@ -3434,7 +3829,7 @@
 		)
 		(uuid "7fd32f2e-fc47-4704-bff2-ffe3dff394c9")
 	)
-	(label "-Vo2"
+	(label "Salida_Neg_Etapa_2"
 		(at 182.88 111.76 0)
 		(effects
 			(font
@@ -3444,7 +3839,7 @@
 		)
 		(uuid "9e71b91a-0d84-46db-b062-25e341b17cd2")
 	)
-	(label "Vo1"
+	(label "Salida_Etapa_1"
 		(at 111.76 68.58 0)
 		(effects
 			(font
@@ -3463,6 +3858,16 @@
 			(justify left bottom)
 		)
 		(uuid "abc45224-3f2b-490f-845c-273e4385c1d1")
+	)
+	(label "Salida_Neg_Etapa_2"
+		(at 214.63 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b419ff3d-857a-4bfd-9c32-e5f27e7322e8")
 	)
 	(label "Vcc"
 		(at 71.12 46.99 0)
@@ -3504,7 +3909,7 @@
 		)
 		(uuid "c8ee6de7-7c4d-4847-a5b3-af0b0a77f0a1")
 	)
-	(label "+Vo2"
+	(label "Salida_Pos_Etapa_2"
 		(at 182.88 81.28 0)
 		(effects
 			(font
@@ -3629,6 +4034,85 @@
 			(project "Amplificador"
 				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 129.54 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "075f0c85-984b-4e64-b01d-e2dfee077f4a")
+		(property "Reference" "J7"
+			(at 130.175 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper Salida Etapa 1"
+			(at 130.175 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ccb978e-b731-42f6-978a-a019be5a92b5")
+		)
+		(pin "2"
+			(uuid "3c2114c2-a908-4613-a9bc-9b182cb3b508")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3806,7 +4290,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 124.46 92.71 180)
+		(at 240.03 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3814,10 +4299,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "167817e5-6724-49b8-afb0-8ab8b34f6a9c")
 		(property "Reference" "J6"
-			(at 123.825 87.63 0)
+			(at 239.395 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3826,8 +4310,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 123.825 90.17 0)
+		(property "Value" "Pin_GND"
+			(at 239.395 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3837,7 +4321,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 124.46 92.71 0)
+			(at 240.03 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +4332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 92.71 0)
+			(at 240.03 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3859,7 +4343,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 124.46 92.71 0)
+			(at 240.03 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Bornera_Salida"
 			(at 239.395 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,6 +4960,85 @@
 			(project "Amplificador"
 				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 25.4 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4de008ef-5c46-456d-9ad2-e919d17baadd")
+		(property "Reference" "J12"
+			(at 26.035 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper Realimentacion"
+			(at 26.035 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 25.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 25.4 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d5ba3a5-1505-46b3-ad48-16b44a3d69c5")
+		)
+		(pin "2"
+			(uuid "b21ddcb4-51fb-4c8a-a815-278c7813fa08")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5105,8 +5668,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 107.95 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 203.2 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5114,11 +5677,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86e8d827-9456-4b04-8bef-9242e196e9c7")
-		(property "Reference" "#PWR03"
-			(at 234.95 114.3 0)
-			(hide yes)
+		(uuid "82bd7ae3-a19b-4a78-95de-86ee5e8d6818")
+		(property "Reference" "J9"
+			(at 203.835 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5127,8 +5688,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 234.95 113.03 0)
+		(property "Value" "Jumper Salida Neg Etapa 2"
+			(at 203.835 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,8 +5698,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.95 107.95 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 203.2 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +5710,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 107.95 0)
+			(at 203.2 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 203.2 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55a683ca-3a4a-43be-8473-305d0f938b56")
+		)
+		(pin "2"
+			(uuid "734d9857-463a-4341-b78d-7a07c2dffb61")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86e8d827-9456-4b04-8bef-9242e196e9c7")
+		(property "Reference" "#PWR03"
+			(at 234.95 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,7 +5802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 107.95 0)
+			(at 234.95 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,7 +5846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Pin_Vcc"
 			(at 69.85 53.9751 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,116 +5897,6 @@
 			(project "Amplificador"
 				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 173.99 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a24c562-4ae3-473c-a88a-67186eac2ce7")
-		(property "Reference" "Q9"
-			(at 179.07 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 179.07 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 179.07 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 173.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 173.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 173.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 173.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e4ed9df7-d1a0-4c5d-be0c-447b83a8c9fe")
-		)
-		(pin "3"
-			(uuid "745e7bdb-b87f-4db6-8f67-fedb853e9d27")
-		)
-		(pin "1"
-			(uuid "e3a28744-ad30-470d-8a37-f17d682faaa8")
-		)
-		(instances
-			(project "Amplificador"
-				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -5557,7 +6089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Pin_Vee"
 			(at 59.69 128.9049 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Pin_GND"
 			(at 48.895 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,6 +6717,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 129.54 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8db7cbd-b7b6-46c9-819a-51a09b9db447")
+		(property "Reference" "J11"
+			(at 128.905 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin_GND"
+			(at 128.905 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de0f360a-3a72-4c01-9c6e-85d8f7a81829")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 69.85 128.27 0)
 		(unit 1)
@@ -6261,6 +6870,195 @@
 			(project "Amplificador"
 				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 203.2 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "affe8aed-5017-4ec9-af20-80e8cb10b448")
+		(property "Reference" "J8"
+			(at 203.835 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper Salida Pos Etapa 2"
+			(at 203.835 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 203.2 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1f71a0d-08f8-4b0f-87d2-86f48ac229f7")
+		)
+		(pin "2"
+			(uuid "f9b165eb-b21d-4133-829d-6d3aa7771950")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BD139")
+		(at 173.99 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0169481-3336-436a-84dd-c206cde198bc")
+		(property "Reference" "Q9"
+			(at 179.07 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD139"
+			(at 179.07 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 179.07 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=C 3=B"
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a6bde19-0f4b-4a9d-bf50-cd9ac6326e30")
+		)
+		(pin "3"
+			(uuid "a7e558e8-ddda-4696-8369-91bdebcb9e6a")
+		)
+		(pin "2"
+			(uuid "d153289b-d86d-4f66-95eb-f4341146e5b2")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -6450,7 +7248,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Pin_Entrada"
 			(at 140.335 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6692,6 +7490,82 @@
 			(project "Amplificador"
 				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 234.95 90.17 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3ac6d9e-82f5-471d-ad68-0abe5da64cee")
+		(property "Reference" "J10"
+			(at 229.87 90.805 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pin_Vo"
+			(at 232.41 90.805 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 234.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 234.95 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f73a891-55b6-4062-907c-8c3aaed82ec7")
+		)
+		(instances
+			(project "Amplificador"
+				(path "/b93fd6c7-69d0-4a10-97c8-3979ab2fdbf5"
+					(reference "J10")
 					(unit 1)
 				)
 			)
